@@ -1,0 +1,3 @@
+/Users/kristina/Documents/hse/3/parallel-programming/hw-1/CMakeFiles/vector_sum.dir
+/Users/kristina/Documents/hse/3/parallel-programming/hw-1/CMakeFiles/edit_cache.dir
+/Users/kristina/Documents/hse/3/parallel-programming/hw-1/CMakeFiles/rebuild_cache.dir

@@ -122,14 +122,14 @@ int main() {
     std::cout << "Naive time: " << t_naive << " us\n";
 
     std::cout << "SSE time:   " << t_sse << " us";
-    std::cout << check_results(naive_res.data(), sse_res.data(), N)
+    std::cout << (check_results(naive_res.data(), sse_res.data(), N)
         ? " (OK)\n"
-        : " (FAIL)\n";
+        : " (FAIL)\n");
 
     std::cout << "AVX time:   " << t_avx << " us";
-    std::cout << check_results(naive_res.data(), avx_res.data(), N)
+    std::cout << (check_results(naive_res.data(), avx_res.data(), N)
         ? " (OK)\n"
-        : " (FAIL)\n";
+        : " (FAIL)\n");
 
     return 0;
 }
